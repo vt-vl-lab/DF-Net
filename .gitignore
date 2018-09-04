@@ -1,0 +1,9 @@
+*DS_Store
+*ignore*
+*pyc
+*__pycache__
+pretrained
+ckpt
+results
+*pose_data
+dataset
