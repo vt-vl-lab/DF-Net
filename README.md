@@ -1,6 +1,6 @@
 # DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency
 
-A TensorFlow re-implementation for [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](). There are some minor differences from the model described in the paper:
+A TensorFlow re-implementation for [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649). There are some minor differences from the model described in the paper:
 
 - Model in the paper uses 2-frame as input, while this code uses 5-frame as input (you might use any odd numbers of frames as input, though you would need to tune the hyper-parameters)
 - FlowNet in the paper is pre-trained on SYNTHIA, while this one is pre-trained on Cityscapes
