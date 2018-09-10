@@ -7,7 +7,7 @@ A TensorFlow re-implementation for [DF-Net: Unsupervised Joint Learning of Depth
 
 Please see the [project page](http://yuliang.vision/DF-Net/) for more details. 
 
-<img src="https://github.com/Yuliang-Zou/DF-Net/blob/master/images/zou2018dfnet.gif">
+<img src="misc/zou2018dfnet.gif">
 
 
 ## Prerequisites
