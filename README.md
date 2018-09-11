@@ -72,7 +72,7 @@ For the first time, custom CUDA operations for FlowNet will be compiled. If you 
 - Line38: specify your g++ version
 
 ## Testing
-Test DepthNet on KITTI raw (You can use the validation set to selct the best model.)
+Test DepthNet on KITTI raw (You can use the validation set to select the best model.)
 ```
 python test_kitti_depth.py --dataset_dir=/path/to/your/data --output_dir=/path/to/save/your/prediction --ckpt_file=/path/to/your/ckpt --split="val or test"
 python kitti_eval/eval_depth.py --pred_file=/path/to/your/prediction --split="val or test"
